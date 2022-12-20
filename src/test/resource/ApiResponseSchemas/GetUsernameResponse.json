@@ -1,0 +1,93 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "id",
+        "username",
+        "firstName",
+        "lastName",
+        "email",
+        "password",
+        "phone",
+        "userStatus"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "default": 0,
+            "title": "The id Schema",
+            "examples": [
+                3446
+            ]
+        },
+        "username": {
+            "type": "string",
+            "default": "",
+            "title": "The username Schema",
+            "examples": [
+                "Nerub1020"
+            ]
+        },
+        "firstName": {
+            "type": "string",
+            "default": "",
+            "title": "The firstName Schema",
+            "examples": [
+                "Md Noor"
+            ]
+        },
+        "lastName": {
+            "type": "string",
+            "default": "",
+            "title": "The lastName Schema",
+            "examples": [
+                "Siddeque"
+            ]
+        },
+        "email": {
+            "type": "string",
+            "default": "",
+            "title": "The email Schema",
+            "examples": [
+                "mdnoor1020@gmail.com"
+            ]
+        },
+        "password": {
+            "type": "string",
+            "default": "",
+            "title": "The password Schema",
+            "examples": [
+                "Yusha1020"
+            ]
+        },
+        "phone": {
+            "type": "string",
+            "default": "",
+            "title": "The phone Schema",
+            "examples": [
+                "9294440444"
+            ]
+        },
+        "userStatus": {
+            "type": "integer",
+            "default": 0,
+            "title": "The userStatus Schema",
+            "examples": [
+                73
+            ]
+        }
+    },
+    "examples": [{
+        "id": 3446,
+        "username": "Nerub1020",
+        "firstName": "Md Noor",
+        "lastName": "Siddeque",
+        "email": "mdnoor1020@gmail.com",
+        "password": "Yusha1020",
+        "phone": "9294440444",
+        "userStatus": 73
+    }]
+}
