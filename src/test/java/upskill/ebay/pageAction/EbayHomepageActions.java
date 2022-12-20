@@ -43,8 +43,8 @@ public class EbayHomepageActions {
 	public void searchShoes(){
 		EbayHomepageLocatorsObj.txtbxSearch.sendKeys("Shoes");
 		//EbayHomepageLocatorsObj.txtbxSearch.sendKeys(ReadExcelSheet.getMapData("search"));
-		EbayHomepageLocatorsObj.btnSearch.click();
-		//EbayHomepageLocatorsObj.btnSearch.sendKeys(Keys.ENTER);
+		//EbayHomepageLocatorsObj.btnSearch.click();
+		EbayHomepageLocatorsObj.btnSearch.sendKeys(Keys.ENTER);
 	}
 	
 	public void searchShirts(){
